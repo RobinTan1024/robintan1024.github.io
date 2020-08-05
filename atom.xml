@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://robintan1024.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-08-04T14:38:07.117Z</updated>
+    <title>I&apos;M ROBIN</title>
+    <updated>2020-08-05T01:29:09.087Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://robintan1024.github.io"/>
     <link rel="self" href="https://robintan1024.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>培养优秀的习惯</subtitle>
     <logo>https://robintan1024.github.io/images/avatar.png</logo>
     <icon>https://robintan1024.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, I&apos;M ROBIN</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://robintan1024.github.io/post/hello-gridea/</id>
