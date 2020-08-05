@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://robintan1024.github.io</id>
     <title>I&apos;M ROBIN</title>
-    <updated>2020-08-05T03:16:37.325Z</updated>
+    <updated>2020-08-05T04:31:31.244Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://robintan1024.github.io"/>
     <link rel="self" href="https://robintan1024.github.io/atom.xml"/>
@@ -10,6 +10,36 @@
     <logo>https://robintan1024.github.io/images/avatar.png</logo>
     <icon>https://robintan1024.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, I&apos;M ROBIN</rights>
+    <entry>
+        <title type="html"><![CDATA[算法复杂度]]></title>
+        <id>https://robintan1024.github.io/post/suan-fa-fu-za-du/</id>
+        <link href="https://robintan1024.github.io/post/suan-fa-fu-za-du/">
+        </link>
+        <updated>2020-08-05T04:22:29.000Z</updated>
+        <summary type="html"><![CDATA[<p>太久没搞算法也没有做题，已经忘记如何计算算法的复杂度了😂，大学的时候学的「软件工程」都已经还给曾老师了。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>太久没搞算法也没有做题，已经忘记如何计算算法的复杂度了😂，大学的时候学的「软件工程」都已经还给曾老师了。</p>
+<!-- more -->
+<h1 id="什么是算法复杂度">什么是算法复杂度？</h1>
+<p>算法，是指对某种程序问题的具体解决办法。要解决一个程序问题，可以有多种算法，各种算法必定有优劣之分，用于比对优劣的指标就是算法的复杂度。算法复杂度的具体表现是时间和空间，算法执行时间越短，耗费内存空间越小，则算法的性能越好。</p>
+<h2 id="时间复杂度">时间复杂度</h2>
+<p>大O表示法常用于描述一个算法的时间复杂度，其描述方式是 <code>T(n)=O(f(n))</code> ，其中 <code>f(n)</code> 表示算法的计算方式，<code>n</code> 是指算法的规模，<code>O</code> 则指一种相对关系。常见的计算方式有 5 种：</p>
+<ul>
+<li>常数阶 <code>O(1)</code></li>
+<li>线性阶 <code>O(n)</code></li>
+<li>指数阶 <code>O(n^m)</code> ，例如：平方阶 <code>O(n^2)</code> 、立方阶 <code>O(n^3)</code>  等</li>
+<li>对数阶 <code>O(logn)</code></li>
+<li>线性对数阶 <code>O(nlogn)</code></li>
+</ul>
+<h2 id="空间复杂度">空间复杂度</h2>
+<p>算法在执行的过程中需要开辟临时内存空间，空间复杂度是对这个临时内存空间大小的度量。常见的空间复杂度有 3 种：</p>
+<ul>
+<li>常数 <code>O(1)</code></li>
+<li>线性 <code>O(n)</code></li>
+<li>指数 <code>O(n^m)</code> ，例如：平方 <code>O(n^2)</code> 、立方 <code>O(n^3)</code>  等</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://robintan1024.github.io/post/hello-gridea/</id>
