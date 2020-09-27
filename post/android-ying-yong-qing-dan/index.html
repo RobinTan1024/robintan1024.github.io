@@ -1,22 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://robintan1024.github.io</id>
-    <title>I&apos;M ROBIN</title>
-    <updated>2020-09-27T07:42:05.213Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://robintan1024.github.io"/>
-    <link rel="self" href="https://robintan1024.github.io/atom.xml"/>
-    <subtitle>培养优秀的习惯</subtitle>
-    <logo>https://robintan1024.github.io/images/avatar.png</logo>
-    <icon>https://robintan1024.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, I&apos;M ROBIN</rights>
-    <entry>
-        <title type="html"><![CDATA[Android 应用清单]]></title>
-        <id>https://robintan1024.github.io/post/android-ying-yong-qing-dan/</id>
-        <link href="https://robintan1024.github.io/post/android-ying-yong-qing-dan/">
-        </link>
-        <updated>2020-09-27T07:04:51.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="概述">概述</h1>
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Android 应用清单 | I&#39;M ROBIN</title>
+<link rel="shortcut icon" href="https://robintan1024.github.io/favicon.ico?v=1601192504192">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://robintan1024.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Android 应用清单 | I&#39;M ROBIN - Atom Feed" href="https://robintan1024.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174582032-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174582032-1');
+</script>
+
+
+    <meta name="description" content="概述
+应用清单文件 AndroidManifest.xml 位于项目根目录，其主要的作用是向 Android OS 声明应用的相关信息，这些信息包括：
+
+应用包名；
+应用权限；
+应用组件；
+应用设备兼容性；
+
+应用包名
+应用清单的根元素是 ..." />
+    <meta name="keywords" content="Android" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://robintan1024.github.io">
+  <img class="avatar" src="https://robintan1024.github.io/images/avatar.png?v=1601192504192" alt="">
+  </a>
+  <h1 class="site-title">
+    I&#39;M ROBIN
+  </h1>
+  <p class="site-description">
+    培养优秀的习惯
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/RobinTan1024" target="_blank">
+          <i class="ri-github-line"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Android 应用清单
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-09-27
+              </span>
+              <span>
+                6 min read
+              </span>
+              
+                <a href="https://robintan1024.github.io/tag/jKc0UQraX/" class="post-tag">
+                  # Android
+                </a>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h1 id="概述">概述</h1>
 <p>应用清单文件 AndroidManifest.xml 位于项目根目录，其主要的作用是向 Android OS 声明应用的相关信息，这些信息包括：</p>
 <ul>
 <li>应用包名；</li>
@@ -93,49 +191,98 @@ URI format is &lt;scheme&gt;://&lt;host&gt;:&lt;port&gt;[&lt;path&gt;|&lt;pathPr
 <p><code>&lt;uses-feature&gt;</code> 元素允许您声明应用所需的硬件和软件功能。 例如，如果您的应用无法在缺少罗盘传感器的设备上实现基础功能，则您可使用以下清单标记将罗盘传感器声明为必需功能 <code>&lt;uses-feature android:name=&quot;android.hardware.sensor.compass&quot; android:required=&quot;true&quot; /&gt;</code> 。</p>
 <h1 id="合并多个清单文件">合并多个清单文件</h1>
 <p>相当复杂，以后再总结：链接。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Android 开发]]></title>
-        <id>https://robintan1024.github.io/post/android/</id>
-        <link href="https://robintan1024.github.io/post/android/">
-        </link>
-        <updated>2020-09-27T06:56:35.000Z</updated>
-        <content type="html"><![CDATA[<p>关于 Android 的一切 🌈🔥</p>
-<h1 id="基础知识">基础知识</h1>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#%E6%A6%82%E8%BF%B0">概述</a></li>
+<li><a href="#%E5%BA%94%E7%94%A8%E5%8C%85%E5%90%8D">应用包名</a>
 <ul>
-<li><a href="/post/android-ying-yong-qing-dan">应用清单</a></li>
+<li><a href="#buildgradle-%E7%9A%84-applicationid">build.gradle 的 applicationId</a></li>
+<li><a href="#%E6%9B%B4%E6%94%B9%E5%BA%94%E7%94%A8%E5%8C%85%E5%90%8D">更改应用包名</a></li>
 </ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[算法复杂度]]></title>
-        <id>https://robintan1024.github.io/post/suan-fa-fu-za-du/</id>
-        <link href="https://robintan1024.github.io/post/suan-fa-fu-za-du/">
-        </link>
-        <updated>2020-08-05T04:22:29.000Z</updated>
-        <summary type="html"><![CDATA[<p>太久没搞算法也没有做题，已经忘记如何计算算法的复杂度了😂，大学的时候学的「软件工程」都已经还给曾老师了。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>太久没搞算法也没有做题，已经忘记如何计算算法的复杂度了😂，大学的时候学的「软件工程」都已经还给曾老师了。</p>
-<!-- more -->
-<h1 id="什么是算法复杂度">什么是算法复杂度？</h1>
-<p>算法，是指对某种程序问题的具体解决办法。要解决一个程序问题，可以有多种算法，各种算法必定有优劣之分，用于比对优劣的指标就是算法的复杂度。算法复杂度的具体表现是时间和空间，算法执行时间越短，耗费内存空间越小，则算法的性能越好。</p>
-<h2 id="时间复杂度">时间复杂度</h2>
-<p>大O表示法常用于描述一个算法的时间复杂度，其描述方式是 <code>T(n)=O(f(n))</code> ，其中 <code>f(n)</code> 表示算法的计算方式，<code>n</code> 是指算法的规模，<code>O</code> 则指一种相对关系。常见的计算方式有 5 种：</p>
+</li>
+<li><a href="#%E5%BA%94%E7%94%A8%E7%BB%84%E4%BB%B6">应用组件</a>
 <ul>
-<li>常数阶 <code>O(1)</code></li>
-<li>线性阶 <code>O(n)</code></li>
-<li>指数阶 <code>O(n^m)</code> ，例如：平方阶 <code>O(n^2)</code> 、立方阶 <code>O(n^3)</code>  等</li>
-<li>对数阶 <code>O(logn)</code></li>
-<li>线性对数阶 <code>O(nlogn)</code></li>
+<li><a href="#%E7%BB%84%E4%BB%B6%E4%BF%A1%E6%81%AF">组件信息</a></li>
+<li><a href="#%E7%BB%84%E4%BB%B6%E5%8A%9F%E8%83%BD">组件功能</a></li>
 </ul>
-<h2 id="空间复杂度">空间复杂度</h2>
-<p>算法在执行的过程中需要开辟临时内存空间，空间复杂度是对这个临时内存空间大小的度量。常见的空间复杂度有 3 种：</p>
+</li>
+<li><a href="#%E5%BA%94%E7%94%A8%E6%9D%83%E9%99%90">应用权限</a>
 <ul>
-<li>常数 <code>O(1)</code></li>
-<li>线性 <code>O(n)</code></li>
-<li>指数 <code>O(n^m)</code> ，例如：平方 <code>O(n^2)</code> 、立方 <code>O(n^3)</code>  等</li>
+<li><a href="#%E5%BA%94%E7%94%A8%E8%AE%BE%E5%A4%87%E5%85%BC%E5%AE%B9%E6%80%A7">应用设备兼容性</a></li>
 </ul>
-]]></content>
-    </entry>
-</feed>
+</li>
+<li><a href="#%E5%90%88%E5%B9%B6%E5%A4%9A%E4%B8%AA%E6%B8%85%E5%8D%95%E6%96%87%E4%BB%B6">合并多个清单文件</a></li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://robintan1024.github.io/post/android/">
+              <h3 class="post-title">
+                Android 开发
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by  <a href="https://github.com/getgridea/gridea" target="_blank" style="margin-left: 10px;">Gridea</a>
+  <a class="rss" href="https://robintan1024.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
